@@ -31,3 +31,46 @@
     transform: rotate(360deg);
   }
 }
+
+.singlebar-header {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-weight: bold;
+}
+
+.singlebar-progress {
+  display: flex;
+}
+
+.barPercent {
+  height: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.appbar-container {
+  display: flex;
+}
+
+.appbar-box {
+  width: 20%;
+  background-color: deepskyblue;
+}
+
+.appbox-header {
+  text-align: left;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+.details-header {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+
+.details-row {
+  text-align: left;
+  font-size: 10px;
+}
